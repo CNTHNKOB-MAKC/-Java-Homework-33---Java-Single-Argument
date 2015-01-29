@@ -4,8 +4,8 @@
 
   <groupId>core</groupId>
   <artifactId>Sinlge_Title_Phuckidation</artifactId>
-  <version>${build.versionENTERWHATEVERNUMBERMustNotContainAnySpaces}</version>
-  <packaging>jar</packaging>
+ <?ignore <version>${build.versionENTERWHATEVERNUMBERMustNotContainAnySpaces}</version> ?>
+ <?ignore <version>Wednesday.January.28.2015.7.42.27.PM</version> ?> <version>${build.version}</version> <packaging>jar</packaging>
 
   <name>Sinlge_Title_Phuckidation</name>
   <url>http://maven.apache.org</url>
@@ -36,8 +36,8 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>${mainClassMustBeAnExactPathOfYourMainClass}</mainClass>
-						</manifest>
+								<?ignore <mainClass>${mainClassMustBeAnExactPathOfYourMainClass}</mainClass> ?>
+							<mainClass>core.Phuckidation.SeleniumSingleTitle</mainClass>						</manifest>
 					</archive>
 		
 					<descriptorRefs>
